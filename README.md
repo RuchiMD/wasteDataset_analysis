@@ -14,7 +14,7 @@ The code for data analysis makes use of the following libraries. PLease make sur
 Also the dataset files have been downloaded beforehand for analysis of themese of information from the following website:
 https://openknowledge.worldbank.org/handle/10986/30317
 
-File Descriptions and How to interact
+File Descriptions and How to interact:
 The analysis code is included in a jupytr notebook - 'process_data.ipynb'
 Open the jupytr notebook and run the code cell by cell.
 In the end, specify the list of columns for grouping the dataset, list of columns for calculating the target, and list of information theme dataframes in the following variables:
@@ -30,7 +30,7 @@ Following is brief summary of functions used:
 5. get_stacked_distribution(input_df, levels,cluster_levels): Get bar plots of number of countries reporting certain data, mean population, and mean municipal solid waste collected where countries are grouped by income levels and region ids
 6. plot_grouped_df(grouped_df, ax,  x, y, cmap = plt.cm.coolwarm): Get bar plots of reported data values by countries grouped by income levels and region ids
 
-I have ocncluded that tracking waste at at least one of consumer level, institutional level, and government level helps in establishing accountability about waste production and management. So interested parties can find a viable market for waste tracking solutions. I have also written a blog boast about my observations. You can find it here:
+I have concluded that tracking waste at at least one of consumer level, institutional level, and government level helps in establishing accountability about waste production and management. So interested parties can find a viable market for waste tracking solutions. I have also written a blog boast about my observations. You can find it here:
 https://medium.com/@ruchi.dhamnaskar/what-a-waste-re-analyzed-d65fdb49a6a3?sk=3b2ff0b149303a0b54c17087d325f7bb
 
 
