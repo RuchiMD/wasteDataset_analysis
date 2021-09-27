@@ -11,6 +11,9 @@ The code for data analysis makes use of the following libraries. PLease make sur
 5. seaborn
 6. sklearn
 
+Also the dataset files have been downloaded beforehand for analysis of themese of information from the following website:
+https://openknowledge.worldbank.org/handle/10986/30317
+
 File Descriptions and How to interact
 The analysis code is included in a jupytr notebook - 'process_data.ipynb'
 Open the jupytr notebook and run the code cell by cell.
